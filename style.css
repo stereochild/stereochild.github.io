@@ -23,6 +23,8 @@ body {
 *::after {
   box-sizing: inherit; }
 
+
+
 .crud {
   margin-bottom: 20px; }
 
@@ -47,8 +49,14 @@ body {
 .kodilla-heading--main {
   margin: 20px auto;
   text-align: center;
-  font-size: 30px;
-  font-weight: 400; }
+  font-size:80px;
+  font-family:impact;
+  
+ -webkit-text-fill-color: transparent;
+ background: -webkit-linear-gradient(transparent, transparent),
+             url(http://www.myspacehippo.com/files/glitterbacks/bg345.gif) repeat;
+ background: -o-linear-gradient(transparent, transparent);
+ -webkit-background-clip: text; }
 
 .datatable__row {
   display: flex;
